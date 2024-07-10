@@ -1,0 +1,470 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #fc7f09;
+  --primary-color-light: #fffcfa;
+  --primary-color-dark: #db6e09;
+  --text-dark: #18181b;
+  --text-light: #6b7280;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
+
+
+/*------Navbar Section Start Here----*/
+
+.nabLogo {
+  color: #fc7f09;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.nabLogo span {
+  color: black
+}
+
+.navListDiv {
+  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 10px;
+}
+
+
+.nav-link:hover {
+  color: #fc7f09;
+}
+
+
+.navBtn {
+  background: #fc7f09;
+  height: 50px;
+  width: 50px;
+  margin-left: 20%;
+
+
+  padding: 8px 10px;
+  font-size: 1.5rem;
+  border-radius: 100%;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.navBtn:hover {
+  color: #db6e09;
+}
+
+.navBtn .btn {
+  align-items: center;
+  color: white;
+  font-weight: 500;
+
+
+}
+
+/*------Navbar Section End----*/
+
+
+
+
+
+
+/*  -- Header section end here----*/
+.headerContainer {
+  display: grid;
+  gap: 2rem;
+  overflow: hidden;
+}
+
+.headerImage {
+  height: 100%;
+  width: 100%;
+
+  margin-inline: auto;
+  filter: drop-shadow(0 0 50px rgba(252, 127, 9, 0.4));
+
+
+  object-fit: cover;
+
+
+}
+
+.headerImage img {
+  max-width: 600px;
+  margin-inline: auto;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+.headerContent {
+  margin-right: 2;
+
+}
+
+.headerContent h1 {
+  margin-bottom: 1rem;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+  color: #18181b;
+  text-align: center;
+}
+
+
+
+.headerContent h1 span {
+  color: #fc7f09;
+  ;
+}
+
+.header__content .section__description {
+  margin-bottom: 2rem;
+}
+
+.headerBtn button {
+  text-align: center;
+  background: #fc7f09;
+  color: white;
+}
+
+
+.container {
+  width: 90%;
+}
+
+
+/* -- Header section end here----- */
+
+
+
+
+
+
+/* ------card  Section Start-----*/
+.sectionHeader {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: #18181b;
+  text-align: center;
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.sectionDescription {
+  text-align: center;
+  max-width: 600px;
+  margin-inline: auto;
+  color: #6b7280;
+  line-height: 1.75rem;
+}
+
+
+.specialDis {
+  border: none;
+  border-radius: 50px;
+}
+
+.specialDis:hover {
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  transition-duration: 1s;
+
+}
+
+.specialDisImg {
+  height: 200px;
+  width: 200px;
+  align-self: center;
+  align-items: center;
+  max-width: 200px;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+  filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.3));
+
+}
+
+.specialFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.priceBtn {
+
+  background-color: #fc7f09;
+  border-radius: 10px;
+  padding: 2% 4%;
+  border: none;
+
+
+
+}
+
+/* card Section end */
+
+
+
+/*-- Serve Healthy & Tasty Start --*/
+.exploreContent {
+  text-align: left;
+  display: grid;
+  gap: 2rem;
+  overflow: hidden;
+}
+
+.exploreContainer {
+
+  margin: 20px;
+}
+
+.exploreImage img {
+  max-width: 400px;
+  margin-inline: auto;
+  filter: drop-shadow(0 0 50px rgba(252, 127, 9, 0.4));
+
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.sectionDescription {
+  color: #6b7280;
+}
+
+.serveBtn {
+  padding: 0.75rem 1.5rem;
+  outline: none;
+  border: none;
+  white-space: nowrap;
+  font-size: 1rem;
+  color: var(--white);
+  background-color: #fc7f09;
+  ;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+
+
+/*-- Serve Healthy & Tasty  End--*/
+
+
+/* -----card ------ */
+
+.bannerCard {
+  border-radius: 10%;
+  padding: 2rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 3rem;
+  transition: 0.3s;
+}
+
+.bannerCard h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.bannerCard p {
+  margin-bottom: 1rem;
+  color: #6b7280;
+  line-height: 1.75rem;
+}
+
+.bannerIcon i {
+
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 5px 11px;
+  font-size: 2rem;
+  color: var(--white);
+  border-radius: 1rem;
+}
+
+#bannerIconId1 i {
+  background-color: #62b15c;
+  box-shadow: 5px 5px 30px #62b15cd0;
+}
+
+#bannerIconId2 i {
+  background-color: #ff3e67;
+  box-shadow: 5px 5px 30px #ff3e67d0;
+}
+
+#bannerIconId3 i {
+  background-color: #185adb;
+  box-shadow: 5px 5px 30px #185adbd0;
+
+}
+
+.readMore {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 500;
+  color: #fc7f09;
+}
+
+/* -----card ------ */
+
+
+
+
+/* -- Cooked By The Best Chefs start --*/
+.chefImage {
+  background: #fc7f09;
+  max-width: 500px;
+  border-radius: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chefImage img {
+  width: 100%;
+}
+
+.chefList span {
+  font-size: 1.5rem;
+
+}
+
+ul {
+  text-decoration: none;
+}
+
+.chefListSpana1 {
+  color: #62b15c;
+}
+
+.chefListSpana2 {
+  color: #ff3e67;
+}
+
+.chefListSpana3 {
+  color: #185adb;
+}
+
+/* -- Cooked By The Best Chefs stert --*/
+
+
+
+
+
+
+
+/*  FOOTER START FROM HERE  */
+
+#footerMainContainer {
+  min-height: 40vh;
+  background-color: #ffe7d1;
+  padding-top: 5%;
+
+
+
+}
+
+
+.footerLogo1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fc7f09;
+
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footerLogo2 {
+  font-size: 2rem;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+
+
+.footerBrandsIcon {
+  margin: 1rem;
+  margin-left: auto;
+  align-items: start;
+}
+
+.footerHeading {
+  margin-bottom: 1rem;
+  margin-top: -5%;
+}
+
+.miniFooterDiv h4 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.footerLinks {
+  list-style: none;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.footerLinks a {
+  margin-left: -13%;
+}
+
+.footerLinks a:hover {
+  color: #fc7f09;
+  transition-duration: 0.1s;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+  color: #6b7280;
+}
+
+
+
+
+.contactFooterContainer a {
+  display: block;
+}
+
+
+.footerAncher {
+  color: #fff;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+
+.copyrightCoantainer a {
+  color: #d3cece;
+  text-decoration: none;
+}
+
+
+
+
+/*  FOOTER END FROM HERE  */
